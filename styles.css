@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    background-color: #0D192C;
+}
+.card-div{
+    width: 327px;
+    text-align: center;
+    margin: 3.88rem auto auto auto;
+    background-color: #15263F;
+    border-radius: 0.75rem;
+}
+
+.card-div h1{
+    font-size: 1.375rem;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 1.5rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.card-div p{
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.625rem;
+    text-align: left;
+    margin-left: 1.5rem;
+    color: #8BACD9;
+    margin-top: 0.75rem;
+}
+
+.main-img{
+    position: relative;
+}
+
+.img{
+    width: 278px;
+    margin-top: 1.25rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+.img-bg{
+    position: absolute;
+    width: 278px;
+    height: 278px;
+    margin-left: 1.55rem;
+    margin-top: -17.65rem;
+    border-radius: 0.75rem;
+    background-color: rgba(0, 255, 248, 50%);
+    z-index: 1;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+}
+
+.img-bg img{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+
+.img-bg:hover{
+    opacity: 100%;
+}
+
+.img-bg img:hover{
+    opacity: 100%;
+}
+
+
+
+
+.details{
+    margin-top: -1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.price{
+    margin-left: -1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.price p{
+    margin-left: 0.405rem;
+    color: #00FFF8;
+    font-weight: 600;
+}
+
+.eth{
+    width: 11px;
+    height: 18px;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+}
+
+.time p{
+    margin-right: -1.5rem;
+    font-weight: 300;
+}
+
+.time img{
+    margin-right: -1.15rem;
+}
+
+.line-divider{
+    border-color: transparent;
+    border-top: 1.5px solid #2E405A ;
+    margin: auto 1.5rem auto 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.creator{
+    display: flex;
+    align-items: center;
+    margin-top: -0.5rem;
+    padding-bottom: 0.85rem;
+}
+
+.creator img{
+    height: 33px;
+    width: auto;
+    border: 1px solid #ffffff;
+    border-radius: 60px;
+    margin-left: 1.5rem;
+}
+
+.creator p{
+    margin-left: 1rem;
+}
+
+#name{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.attribution{
+    margin-top: 2rem;
+}
+
+#name:hover, .card-div h1:hover{
+    color: #00FFF8;
+}
